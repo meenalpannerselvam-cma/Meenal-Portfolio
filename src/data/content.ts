@@ -70,10 +70,10 @@ export const PORTFOLIO_DATA = {
     heroTag: "CMA Foundation cleared · Chennai · Open to relocation and remote",
     location: "Chennai, Tamil Nadu, India",
     email: "meenalpannerselvam@gmail.com",
-    photoUrl: "/assets/meenal-photo.jpg",
+    photoUrl: `${import.meta.env.BASE_URL}assets/meenal-photo.jpg`,
     // TODO: Replace with your actual LinkedIn profile URL once available
     linkedinUrl: "https://www.linkedin.com/in/TODO-meenal",
-    resumeUrl: "/resume.pdf",
+    resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
     statusBadge: "Open to opportunities",
     contactIntro: "Hiring for a cost accounting, financial analysis or audit role, or want to talk about a project? I'd love to hear from you, and I'll get back to you as soon as I can.",
     footerTagline: "Cost accounting and financial analysis, made clear",
